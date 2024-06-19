@@ -158,3 +158,7 @@ document.ontouchstart = evt => birthday.onClick(evt)
   	
 
   })()
+
+  function playAudio() {
+    document.getElementById("musica_fondo").play();
+  }

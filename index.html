@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Cumple Marilyn</title>
 </head>
-<body>
+<body onclick="playAudio()">
     <div class="card">
         <div class="birthday-card">
             <!-- Inner -->
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-    <audio autoplay controls>
+    <audio id="musica_fondo" preload="preload">
         <source src="./glory-days-the-best-songs.mp3" type="audio/mp3">
     </audio>
 
